@@ -100,6 +100,9 @@ button {
     padding: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 6px;
 }
 button:hover {
     background-color: #877F6C;
