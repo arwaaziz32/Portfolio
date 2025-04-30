@@ -112,6 +112,7 @@ button {
     display: flex;
     margin-left: 25%;
     cursor: pointer;
+    border-radius: 6px;
     
     
 }
