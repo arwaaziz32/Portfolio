@@ -93,3 +93,44 @@ a:hover {
 main {
     display: flex;
 }
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding-top: 5rem;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav {
+        font-size: 3rem;
+      }
+      h1, h2 {
+          font-size: 4rem;
+      }
+      a {
+        font-size: 1.5rem;
+        
+    }
+    nav ul {
+        gap: 0.75rem;
+        margin: 1rem 0 0 2rem;
+    }
+    .education {
+        font-size: 4rem;
+        padding-top: 10rem;
+    }
+    .left-col, .right-col {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .courses, .academic {
+        font-size: 2.5rem;
+    }
+    .list-1 > .courses-list, .list-2 > .academic-list {
+        padding-left: 2rem;
+        font-size: 2.75rem;
+    }
+}
