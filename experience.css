@@ -71,3 +71,38 @@ a:hover {
     padding-left: 100px;
     padding-right: 100px;
 }*/
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding-top: 5rem;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    p, nav {
+        font-size: 3rem;
+      }
+      h1, h2 {
+          font-size: 4rem;
+      }
+      a {
+        font-size: 1.5rem;
+        
+    }
+    nav ul {
+        gap: 0.75rem;
+        margin: 1rem 0 0 2rem;
+    }
+    .experience {
+        font-size: 5rem;
+        padding-top: 10rem;
+    }
+
+    .list-1>.work-list {
+        padding-left: 4rem;
+        padding-right: 2rem;
+        font-size: 2rem;
+    }
+}
